@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Experimental input data
+*.xdi
+*.dat
+*.csv
+
+# Generated visual outputs
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Generated output folders
+output/
+outputs/
+figures/
+plots/
+animations/
+previews/
+results/
