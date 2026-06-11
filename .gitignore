@@ -222,6 +222,10 @@ __marimo__/
 *.dat
 *.csv
 
+# Allow synthetic example data
+!examples/
+!examples/synthetic_absorption.xdi
+
 # Generated visual outputs
 *.gif
 *.png
