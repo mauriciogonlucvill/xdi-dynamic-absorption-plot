@@ -530,6 +530,10 @@ Recommended `.gitignore` additions:
 *.dat
 *.csv
 
+# Allow synthetic example data
+!examples/
+!examples/synthetic_absorption.xdi
+
 # Generated visual outputs
 *.gif
 *.png
@@ -549,6 +553,8 @@ results/
 ```
 
 This helps avoid accidentally uploading experimental files or generated outputs.
+
+The file examples/synthetic_absorption.xdi contains artificial data generated only for testing the script. It does not correspond to any real experiment.
 
 ## License
 
